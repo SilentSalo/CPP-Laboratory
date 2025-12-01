@@ -5,7 +5,6 @@ class Lab9Page extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Константи з Варіанта 7
     const double a = 250;
     const double b = 300;
     const double d = 200;
@@ -33,7 +32,7 @@ class Lab9Page extends StatelessWidget {
               children: [
                 Container(height: a),
 
-                // ПЕРШИЙ РЯДОК
+                // перший рядок
                 SizedBox(
                   height: b,
                   child: Row(

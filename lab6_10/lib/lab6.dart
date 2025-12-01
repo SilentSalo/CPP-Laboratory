@@ -24,7 +24,7 @@ class Lab6Page extends StatelessWidget {
     );
 
     return Scaffold(
-      // Додаємо Scaffold, щоб була стрілочка "Назад" і заголовок
+      // Scaffold, щоб була стрілочка "Назад" і заголовок
       appBar: AppBar(
         title: const Text("Лабораторна робота №6"),
         backgroundColor: Colors.blue,

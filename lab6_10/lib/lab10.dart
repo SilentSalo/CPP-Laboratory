@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-// Модель даних
+// модель даних
 class Scientist {
   final String name;
   final String description;
@@ -23,7 +23,7 @@ class Lab10Page extends StatefulWidget {
 class _Lab10PageState extends State<Lab10Page> {
   Scientist? _selectedScientist;
 
-  // Список вчених
+  // список вчених
   final List<Scientist> scientists = [
     Scientist(
       name: "Галілео Галілей",

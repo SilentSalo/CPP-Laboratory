@@ -5,7 +5,6 @@ class Lab8Page extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Константи з Варіанта 7 (Lab 6)
     const double a = 250;
     const double b = 300;
     const double d = 200;
